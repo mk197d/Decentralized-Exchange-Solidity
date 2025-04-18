@@ -1,0 +1,1339 @@
+const top_up_trader = 100;
+const initTokenA = 40 * (10 ** 10);
+const initTokenB = 80 * (10 ** 10);
+------------------------------------------
+Iteration: 0
+0
+0
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 0.9814190567547753
+Reserve Ratio: 0.5410
+TokenA swapped: 0.0000
+TokenB swapped: 0.0000
+FeeA: 0.000000
+FeeB: 0.000000
+------------------------------------------
+Iteration: 1
+0.4907095284
+0.9070874317
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 0.9943754965563938
+Reserve Ratio: 0.5553
+Slippage (A for B): -1.5952%
+Swap Exchange (A / B): 0.549742
+Trade Lot Fraction:  0.013202
+TokenA swapped: 0.0065
+TokenB swapped: 0.0000
+FeeA: 0.000019
+FeeB: 0.000000
+------------------------------------------
+Iteration: 2
+0.4971877483
+0.8953033281
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 0.936121380525927
+Reserve Ratio: 0.4921
+Slippage (B for A): -6.1408%
+Swap Exchange Price (A / B): 0.521227
+Trade Lot Fraction:  0.062416
+TokenA swapped: 0.0065
+TokenB swapped: 0.0559
+FeeA: 0.000019
+FeeB: 0.000168
+------------------------------------------
+Iteration: 3
+0.4680606903
+0.9511850131
+. . . . . . . . . . . . . . . . . . . . . .
+TVL: 0.936121380525927
+Reserve Ratio: 0.4921
+TokenA swapped: 0.0065
+TokenB swapped: 0.0559
+FeeA: 0.000019
+FeeB: 0.000168
+------------------------------------------
+Iteration: 4
+0.4680606903
+0.9511850131
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 0.9946789897632351
+Reserve Ratio: 0.5555
+Slippage (A for B): -6.1529%
+Swap Exchange (A / B): 0.524344
+Trade Lot Fraction:  0.062553
+TokenA swapped: 0.0358
+TokenB swapped: 0.0559
+FeeA: 0.000107
+FeeB: 0.000168
+------------------------------------------
+Iteration: 5
+0.4973394949
+0.8953460612
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 0.934922285546471
+Reserve Ratio: 0.4906
+Slippage (B for A): -6.2896%
+Swap Exchange Price (A / B): 0.520535
+Trade Lot Fraction:  0.064109
+TokenA swapped: 0.0358
+TokenB swapped: 0.1133
+FeeA: 0.000107
+FeeB: 0.000340
+------------------------------------------
+Iteration: 6
+0.4674611428
+0.9527454006
+. . . . . . . . . . . . . . . . . . . . . .
+TVL: 0.934922285546471
+Reserve Ratio: 0.4906
+TokenA swapped: 0.0358
+TokenB swapped: 0.1133
+FeeA: 0.000107
+FeeB: 0.000340
+------------------------------------------
+Iteration: 7
+0.4674611428
+0.9527454006
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 0.9406835221876866
+Reserve Ratio: 0.4967
+Slippage (A for B): -0.9088%
+Swap Exchange (A / B): 0.495146
+Trade Lot Fraction:  0.006162
+TokenA swapped: 0.0386
+TokenB swapped: 0.1133
+FeeA: 0.000116
+FeeB: 0.000340
+------------------------------------------
+Iteration: 8
+0.4703417611
+0.9469276893
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 0.9304384639261801
+Reserve Ratio: 0.4859
+Slippage (B for A): -1.3858%
+Swap Exchange Price (A / B): 0.489819
+Trade Lot Fraction:  0.011044
+TokenA swapped: 0.0386
+TokenB swapped: 0.1237
+FeeA: 0.000116
+FeeB: 0.000371
+------------------------------------------
+Iteration: 9
+0.465219232
+0.9573856845
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 0.9968143727693572
+Reserve Ratio: 0.5576
+Slippage (A for B): -6.9202%
+Swap Exchange (A / B): 0.522054
+Trade Lot Fraction:  0.071338
+TokenA swapped: 0.0718
+TokenB swapped: 0.1237
+FeeA: 0.000215
+FeeB: 0.000371
+------------------------------------------
+Iteration: 10
+0.4984071864
+0.8938138065
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 223.20224150048077
+Reserve Ratio: 1.9175
+TokenA swapped: 0.0718
+TokenB swapped: 0.1237
+FeeA: 0.000215
+FeeB: 0.000371
+------------------------------------------
+Iteration: 11
+111.6011207523
+58.2012164129
+. . . . . . . . . . . . . . . . . . . . . .
+TVL: 223.20224150048077
+Reserve Ratio: 1.9175
+TokenA swapped: 0.0718
+TokenB swapped: 0.1237
+FeeA: 0.000215
+FeeB: 0.000371
+------------------------------------------
+Iteration: 12
+111.6011207523
+58.2012164129
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 305.20574085081824
+Reserve Ratio: 1.7314
+TokenA swapped: 0.0718
+TokenB swapped: 0.1237
+FeeA: 0.000215
+FeeB: 0.000371
+------------------------------------------
+Iteration: 13
+152.6028704266
+88.1368421892
+. . . . . . . . . . . . . . . . . . . . . .
+TVL: 305.20574085081824
+Reserve Ratio: 1.7314
+TokenA swapped: 0.0718
+TokenB swapped: 0.1237
+FeeA: 0.000215
+FeeB: 0.000371
+------------------------------------------
+Iteration: 14
+152.6028704266
+88.1368421892
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 279.6866668274894
+Reserve Ratio: 1.7314
+TokenA swapped: 0.0718
+TokenB swapped: 0.1237
+FeeA: 0.000215
+FeeB: 0.000371
+------------------------------------------
+Iteration: 15
+139.8433334148
+80.767483429
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 301.676697077461
+Reserve Ratio: 1.5807
+TokenA swapped: 0.0718
+TokenB swapped: 0.1237
+FeeA: 0.000215
+FeeB: 0.000371
+------------------------------------------
+Iteration: 16
+150.8383485431
+95.4258642
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 298.48915266019964
+Reserve Ratio: 1.5474
+Slippage (B for A): -1.3534%
+Swap Exchange Price (A / B): 1.559293
+Trade Lot Fraction:  0.010711
+TokenA swapped: 0.0718
+TokenB swapped: 1.1459
+FeeA: 0.000215
+FeeB: 0.003438
+------------------------------------------
+Iteration: 17
+149.2445763336
+96.4479765498
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 275.1680814925606
+Reserve Ratio: 1.3147
+Slippage (B for A): -8.0896%
+Swap Exchange Price (A / B): 1.422231
+Trade Lot Fraction:  0.085007
+TokenA swapped: 0.0718
+TokenB swapped: 9.3446
+FeeA: 0.000215
+FeeB: 0.028034
+------------------------------------------
+Iteration: 18
+137.5840407512
+104.6467408368
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 286.36762625102205
+Reserve Ratio: 1.3168
+TokenA swapped: 0.0718
+TokenB swapped: 9.3446
+FeeA: 0.000215
+FeeB: 0.028034
+------------------------------------------
+Iteration: 19
+143.1838131303
+108.7351685674
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 286.46010391245534
+Reserve Ratio: 1.3162
+TokenA swapped: 0.0718
+TokenB swapped: 9.3446
+FeeA: 0.000215
+FeeB: 0.028034
+------------------------------------------
+Iteration: 20
+143.2300519575
+108.8206420636
+. . . . . . . . . . . . . . . . . . . . . .
+TVL: 286.46010391245534
+Reserve Ratio: 1.3162
+TokenA swapped: 0.0718
+TokenB swapped: 9.3446
+FeeA: 0.000215
+FeeB: 0.028034
+------------------------------------------
+Iteration: 21
+143.2300519575
+108.8206420636
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 298.0231111955981
+Reserve Ratio: 1.4244
+Slippage (A for B): -4.1571%
+Swap Exchange (A / B): 1.373292
+Trade Lot Fraction:  0.040365
+TokenA swapped: 5.8533
+TokenB swapped: 9.3446
+FeeA: 0.017560
+FeeB: 0.028034
+------------------------------------------
+Iteration: 22
+149.0115556004
+104.6106832128
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 310.23454664943057
+Reserve Ratio: 1.5434
+Slippage (A for B): -4.2131%
+Swap Exchange (A / B): 1.487091
+Trade Lot Fraction:  0.040975
+TokenA swapped: 11.9590
+TokenB swapped: 9.3446
+FeeA: 0.035877
+FeeB: 0.028034
+------------------------------------------
+Iteration: 23
+155.1172733258
+100.5048713585
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 315.6979665864679
+Reserve Ratio: 1.5156
+TokenA swapped: 11.9590
+TokenB swapped: 9.3446
+FeeA: 0.035877
+FeeB: 0.028034
+------------------------------------------
+Iteration: 24
+157.8489832937
+104.146744007
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 314.64949408890976
+Reserve Ratio: 1.5156
+TokenA swapped: 11.9590
+TokenB swapped: 9.3446
+FeeA: 0.035877
+FeeB: 0.028034
+------------------------------------------
+Iteration: 25
+157.3247470449
+103.8008596227
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 130.3563493694316
+Reserve Ratio: 1.5156
+TokenA swapped: 11.9590
+TokenB swapped: 9.3446
+FeeA: 0.035877
+FeeB: 0.028034
+------------------------------------------
+Iteration: 26
+65.1781746849
+43.0037275636
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 121.43186583416319
+Reserve Ratio: 1.5156
+TokenA swapped: 11.9590
+TokenB swapped: 9.3446
+FeeA: 0.035877
+FeeB: 0.028034
+------------------------------------------
+Iteration: 27
+60.7159329172
+40.0595974123
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 121.40641195672767
+Reserve Ratio: 1.5156
+TokenA swapped: 11.9590
+TokenB swapped: 9.3446
+FeeA: 0.035877
+FeeB: 0.028034
+------------------------------------------
+Iteration: 28
+60.7032059785
+40.0512003406
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 120.07218612074578
+Reserve Ratio: 1.4825
+Slippage (B for A): -1.3957%
+Swap Exchange Price (A / B): 1.494487
+Trade Lot Fraction:  0.011145
+TokenA swapped: 11.9590
+TokenB swapped: 9.7910
+FeeA: 0.035877
+FeeB: 0.029373
+------------------------------------------
+Iteration: 29
+60.0360930617
+40.4975829902
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 120.13549609975377
+Reserve Ratio: 1.4840
+Slippage (A for B): -0.3524%
+Swap Exchange (A / B): 1.487704
+Trade Lot Fraction:  0.000527
+TokenA swapped: 11.9907
+TokenB swapped: 9.7910
+FeeA: 0.035972
+FeeB: 0.029373
+------------------------------------------
+Iteration: 30
+60.0677480499
+40.4763052377
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 127.47220424866215
+Reserve Ratio: 1.6705
+Slippage (A for B): -6.0220%
+Swap Exchange (A / B): 1.579118
+Trade Lot Fraction:  0.061070
+TokenA swapped: 15.6591
+TokenB swapped: 9.7910
+FeeA: 0.046977
+FeeB: 0.029373
+------------------------------------------
+Iteration: 31
+63.7361021251
+38.1532648371
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 124.84307382213002
+Reserve Ratio: 1.6022
+Slippage (B for A): -2.3563%
+Swap Exchange Price (A / B): 1.631165
+Trade Lot Fraction:  0.021123
+TokenA swapped: 15.6591
+TokenB swapped: 10.5969
+FeeA: 0.046977
+FeeB: 0.031791
+------------------------------------------
+Iteration: 32
+62.4215369111
+38.9591705367
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 114.51145398458115
+Reserve Ratio: 1.3477
+Slippage (B for A): -8.5509%
+Swap Exchange Price (A / B): 1.465225
+Trade Lot Fraction:  0.090495
+TokenA swapped: 15.6591
+TokenB swapped: 14.1225
+FeeA: 0.046977
+FeeB: 0.042368
+------------------------------------------
+Iteration: 33
+57.2557269931
+42.4847786098
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 111.4164916807061
+Reserve Ratio: 1.2757
+Slippage (B for A): -2.9946%
+Swap Exchange Price (A / B): 1.307318
+Trade Lot Fraction:  0.027862
+TokenA swapped: 15.6591
+TokenB swapped: 15.3062
+FeeA: 0.046977
+FeeB: 0.045919
+------------------------------------------
+Iteration: 34
+55.7082458409
+43.6684852554
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 101.82944335626838
+Reserve Ratio: 1.0653
+Slippage (B for A): -8.8789%
+Swap Exchange Price (A / B): 1.162440
+Trade Lot Fraction:  0.094431
+TokenA swapped: 15.6591
+TokenB swapped: 19.4299
+FeeA: 0.046977
+FeeB: 0.058290
+------------------------------------------
+Iteration: 35
+50.9147216795
+47.7921610737
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 348.8292894739169
+Reserve Ratio: 1.2642
+TokenA swapped: 15.6591
+TokenB swapped: 19.4299
+FeeA: 0.046977
+FeeB: 0.058290
+------------------------------------------
+Iteration: 36
+174.4146447411
+137.9602029145
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 357.82195246322453
+Reserve Ratio: 1.3302
+Slippage (A for B): -2.7983%
+Swap Exchange (A / B): 1.300634
+Trade Lot Fraction:  0.025780
+TokenA swapped: 20.1554
+TokenB swapped: 19.4299
+FeeA: 0.060466
+FeeB: 0.058290
+------------------------------------------
+Iteration: 37
+178.9109762354
+134.503173582
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 380.33760468691963
+Reserve Ratio: 1.5026
+Slippage (A for B): -6.1855%
+Swap Exchange (A / B): 1.417864
+Trade Lot Fraction:  0.062924
+TokenA swapped: 31.4132
+TokenB swapped: 19.4299
+FeeA: 0.094240
+FeeB: 0.058290
+------------------------------------------
+Iteration: 38
+190.1688023459
+126.5631811016
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 401.8004507362549
+Reserve Ratio: 1.6767
+Slippage (A for B): -5.6105%
+Swap Exchange (A / B): 1.591873
+Trade Lot Fraction:  0.056431
+TokenA swapped: 42.1446
+TokenB swapped: 19.4299
+FeeA: 0.126434
+FeeB: 0.058290
+------------------------------------------
+Iteration: 39
+200.9002253702
+119.8217976213
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 388.94019965559824
+Reserve Ratio: 1.6767
+TokenA swapped: 42.1446
+TokenB swapped: 19.4299
+FeeA: 0.126434
+FeeB: 0.058290
+------------------------------------------
+Iteration: 40
+194.4700998298
+115.9867138141
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 407.32827330991086
+Reserve Ratio: 1.8387
+Slippage (A for B): -4.7879%
+Swap Exchange (A / B): 1.760972
+Trade Lot Fraction:  0.047277
+TokenA swapped: 51.3387
+TokenB swapped: 19.4299
+FeeA: 0.154016
+FeeB: 0.058290
+------------------------------------------
+Iteration: 41
+203.6641366581
+110.7657113158
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 407.32266617476864
+Reserve Ratio: 1.8387
+TokenA swapped: 51.3387
+TokenB swapped: 19.4299
+FeeA: 0.154016
+FeeB: 0.058290
+------------------------------------------
+Iteration: 42
+203.6613330905
+110.7641865547
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 440.2112805554744
+Reserve Ratio: 2.1471
+Slippage (A for B): -7.7280%
+Swap Exchange (A / B): 1.992688
+Trade Lot Fraction:  0.080743
+TokenA swapped: 67.7830
+TokenB swapped: 19.4299
+FeeA: 0.203349
+FeeB: 0.058290
+------------------------------------------
+Iteration: 43
+220.1056402827
+102.5118623635
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 445.35241499848166
+Reserve Ratio: 2.1404
+TokenA swapped: 67.7830
+TokenB swapped: 19.4299
+FeeA: 0.203349
+FeeB: 0.058290
+------------------------------------------
+Iteration: 44
+222.6762075017
+104.034851119
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 431.1519076806875
+Reserve Ratio: 2.0059
+Slippage (B for A): -3.4790%
+Swap Exchange Price (A / B): 2.065935
+Trade Lot Fraction:  0.033035
+TokenA swapped: 67.7830
+TokenB swapped: 22.8667
+FeeA: 0.203349
+FeeB: 0.068600
+------------------------------------------
+Iteration: 45
+215.5759538456
+107.4716746996
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 457.37830976785233
+Reserve Ratio: 2.2570
+Slippage (A for B): -6.0007%
+Swap Exchange (A / B): 2.133937
+Trade Lot Fraction:  0.060829
+TokenA swapped: 80.8962
+TokenB swapped: 22.8667
+FeeA: 0.242689
+FeeB: 0.068600
+------------------------------------------
+Iteration: 46
+228.6891548871
+101.3266017993
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 498.538895879358
+Reserve Ratio: 2.6808
+Slippage (A for B): -8.5088%
+Swap Exchange (A / B): 2.466851
+Trade Lot Fraction:  0.089992
+TokenA swapped: 101.4765
+TokenB swapped: 22.8667
+FeeA: 0.304429
+FeeB: 0.068600
+------------------------------------------
+Iteration: 47
+249.2694479441
+92.9838615587
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 524.8243708864436
+Reserve Ratio: 2.9705
+Slippage (A for B): -5.2792%
+Swap Exchange (A / B): 2.830193
+Trade Lot Fraction:  0.052725
+TokenA swapped: 114.6192
+TokenB swapped: 22.8667
+FeeA: 0.343858
+FeeB: 0.068600
+------------------------------------------
+Iteration: 48
+262.4121854443
+88.3401008664
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 570.6122049456117
+Reserve Ratio: 3.5106
+Slippage (A for B): -8.2782%
+Swap Exchange (A / B): 3.238571
+Trade Lot Fraction:  0.087244
+TokenA swapped: 137.5131
+TokenB swapped: 22.8667
+FeeA: 0.412539
+FeeB: 0.068600
+------------------------------------------
+Iteration: 49
+285.3061024752
+81.2709597215
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 550.9836589431817
+Reserve Ratio: 3.2728
+Slippage (B for A): -3.7296%
+Swap Exchange Price (A / B): 3.379625
+Trade Lot Fraction:  0.035732
+TokenA swapped: 137.5131
+TokenB swapped: 25.7707
+FeeA: 0.412539
+FeeB: 0.077312
+------------------------------------------
+Iteration: 50
+275.4918294742
+84.1749131113
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 592.9864513882471
+Reserve Ratio: 3.7901
+Slippage (A for B): -7.3423%
+Swap Exchange (A / B): 3.532195
+Trade Lot Fraction:  0.076232
+TokenA swapped: 158.5145
+TokenB swapped: 25.7707
+FeeA: 0.475544
+FeeB: 0.077312
+------------------------------------------
+Iteration: 51
+296.493225697
+78.2292058174
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 592.9823084378086
+Reserve Ratio: 3.7901
+TokenA swapped: 158.5145
+TokenB swapped: 25.7707
+FeeA: 0.475544
+FeeB: 0.077312
+------------------------------------------
+Iteration: 52
+296.4911542217
+78.2286592624
+. . . . . . . . . . . . . . . . . . . . . .
+TVL: 592.9823084378086
+Reserve Ratio: 3.7901
+TokenA swapped: 158.5145
+TokenB swapped: 25.7707
+FeeA: 0.475544
+FeeB: 0.077312
+------------------------------------------
+Iteration: 53
+296.4911542217
+78.2286592624
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 598.9805285368379
+Reserve Ratio: 3.5794
+TokenA swapped: 158.5145
+TokenB swapped: 25.7707
+FeeA: 0.475544
+FeeB: 0.077312
+------------------------------------------
+Iteration: 54
+299.4902642702
+83.6693576379
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 655.6217444462275
+Reserve Ratio: 4.2873
+Slippage (A for B): -8.8898%
+Swap Exchange (A / B): 3.928703
+Trade Lot Fraction:  0.094563
+TokenA swapped: 186.8351
+TokenB swapped: 25.7707
+FeeA: 0.560505
+FeeB: 0.077312
+------------------------------------------
+Iteration: 55
+327.8108722247
+76.4607168218
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 648.0459530829207
+Reserve Ratio: 4.1887
+Slippage (B for A): -1.4520%
+Swap Exchange Price (A / B): 4.225057
+Trade Lot Fraction:  0.011725
+TokenA swapped: 186.8351
+TokenB swapped: 26.6672
+FeeA: 0.560505
+FeeB: 0.080002
+------------------------------------------
+Iteration: 56
+324.022976544
+77.3572480253
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 689.4096881386218
+Reserve Ratio: 3.8467
+TokenA swapped: 186.8351
+TokenB swapped: 26.6672
+FeeA: 0.560505
+FeeB: 0.080002
+------------------------------------------
+Iteration: 57
+344.7048440697
+89.6106726595
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 733.6481366218154
+Reserve Ratio: 4.3554
+Slippage (A for B): -6.2949%
+Swap Exchange (A / B): 4.105106
+Trade Lot Fraction:  0.064169
+TokenA swapped: 208.9544
+TokenB swapped: 26.6672
+FeeA: 0.626863
+FeeB: 0.080002
+------------------------------------------
+Iteration: 58
+366.8240683112
+84.2224499993
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 764.5402220727735
+Reserve Ratio: 4.7294
+Slippage (A for B): -4.3169%
+Swap Exchange (A / B): 4.551920
+Trade Lot Fraction:  0.042107
+TokenA swapped: 224.4004
+TokenB swapped: 26.6672
+FeeA: 0.673201
+FeeB: 0.080002
+------------------------------------------
+Iteration: 59
+382.2701110381
+80.8291475873
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 722.7034083607678
+Reserve Ratio: 4.2252
+Slippage (B for A): -5.7557%
+Swap Exchange Price (A / B): 4.457150
+Trade Lot Fraction:  0.058064
+TokenA swapped: 224.4004
+TokenB swapped: 31.3604
+FeeA: 0.673201
+FeeB: 0.094081
+------------------------------------------
+Iteration: 60
+361.3517041841
+85.522372192
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 749.2331666011814
+Reserve Ratio: 4.5406
+Slippage (A for B): -3.8201%
+Swap Exchange (A / B): 4.393048
+Trade Lot Fraction:  0.036709
+TokenA swapped: 237.6653
+TokenB swapped: 31.3604
+FeeA: 0.712996
+FeeB: 0.094081
+------------------------------------------
+Iteration: 61
+374.6165833044
+82.5028562166
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 766.5368567107332
+Reserve Ratio: 4.7525
+Slippage (A for B): -2.5440%
+Swap Exchange (A / B): 4.659180
+Trade Lot Fraction:  0.023095
+TokenA swapped: 246.3171
+TokenB swapped: 31.3604
+FeeA: 0.738951
+FeeB: 0.094081
+------------------------------------------
+Iteration: 62
+383.268428358
+80.6459103582
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 760.8779276982781
+Reserve Ratio: 4.7525
+TokenA swapped: 246.3171
+TokenB swapped: 31.3604
+FeeA: 0.738951
+FeeB: 0.094081
+------------------------------------------
+Iteration: 63
+380.4389638516
+80.050545011
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 760.2049289181375
+Reserve Ratio: 4.7525
+TokenA swapped: 246.3171
+TokenB swapped: 31.3604
+FeeA: 0.738951
+FeeB: 0.094081
+------------------------------------------
+Iteration: 64
+380.1024644615
+79.9797400669
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 793.4107692996488
+Reserve Ratio: 5.1761
+Slippage (A for B): -4.4607%
+Swap Exchange (A / B): 4.974374
+Trade Lot Fraction:  0.043680
+TokenA swapped: 262.9200
+TokenB swapped: 31.3604
+FeeA: 0.788760
+FeeB: 0.094081
+------------------------------------------
+Iteration: 65
+396.705384652
+76.6420495618
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 774.4381030214781
+Reserve Ratio: 4.9311
+Slippage (B for A): -2.6841%
+Swap Exchange Price (A / B): 5.037149
+Trade Lot Fraction:  0.024572
+TokenA swapped: 262.9200
+TokenB swapped: 33.2437
+FeeA: 0.788760
+FeeB: 0.099731
+------------------------------------------
+Iteration: 66
+387.219051514
+78.5253239794
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 780.9032173238246
+Reserve Ratio: 5.0137
+Slippage (A for B): -1.1230%
+Swap Exchange (A / B): 4.987140
+Trade Lot Fraction:  0.008348
+TokenA swapped: 266.1526
+TokenB swapped: 33.2437
+FeeA: 0.798458
+FeeB: 0.099731
+------------------------------------------
+Iteration: 67
+390.451608663
+77.8771453964
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 835.670884160496
+Reserve Ratio: 5.7405
+Slippage (A for B): -6.8158%
+Swap Exchange (A / B): 5.380402
+Trade Lot Fraction:  0.070134
+TokenA swapped: 293.5364
+TokenB swapped: 33.2437
+FeeA: 0.880609
+FeeB: 0.099731
+------------------------------------------
+Iteration: 68
+417.8354420834
+72.7875934997
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 628.5299667298445
+Reserve Ratio: 5.7405
+TokenA swapped: 293.5364
+TokenB swapped: 33.2437
+FeeA: 0.880609
+FeeB: 0.099731
+------------------------------------------
+Iteration: 69
+314.2649833671
+54.7454561214
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 685.8685621723189
+Reserve Ratio: 3.8614
+TokenA swapped: 293.5364
+TokenB swapped: 33.2437
+FeeA: 0.880609
+FeeB: 0.099731
+------------------------------------------
+Iteration: 70
+342.9342810875
+88.8100030808
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 644.0024531187779
+Reserve Ratio: 3.4038
+Slippage (B for A): -6.3858%
+Swap Exchange Price (A / B): 3.614854
+Trade Lot Fraction:  0.065205
+TokenA swapped: 293.5364
+TokenB swapped: 39.0345
+FeeA: 0.880609
+FeeB: 0.117104
+------------------------------------------
+Iteration: 71
+322.001226561
+94.6008462796
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 643.5422272380845
+Reserve Ratio: 3.4038
+TokenA swapped: 293.5364
+TokenB swapped: 39.0345
+FeeA: 0.880609
+FeeB: 0.117104
+------------------------------------------
+Iteration: 72
+321.7711136205
+94.5332413232
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 647.0308027346598
+Reserve Ratio: 3.3488
+TokenA swapped: 293.5364
+TokenB swapped: 39.0345
+FeeA: 0.880609
+FeeB: 0.117104
+------------------------------------------
+Iteration: 73
+323.5154013718
+96.6057850106
+. . . . . . . . . . . . . . . . . . . . . .
+TVL: 647.0308027346598
+Reserve Ratio: 3.3488
+TokenA swapped: 293.5364
+TokenB swapped: 39.0345
+FeeA: 0.880609
+FeeB: 0.117104
+------------------------------------------
+Iteration: 74
+323.5154013718
+96.6057850106
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 1067.9197706519183
+Reserve Ratio: 2.6921
+TokenA swapped: 293.5364
+TokenB swapped: 39.0345
+FeeA: 0.880609
+FeeB: 0.117104
+------------------------------------------
+Iteration: 75
+533.9598853281
+198.3404324117
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 1033.3858720221187
+Reserve Ratio: 2.5206
+Slippage (B for A): -3.5241%
+Swap Exchange Price (A / B): 2.597266
+Trade Lot Fraction:  0.033519
+TokenA swapped: 293.5364
+TokenB swapped: 45.6827
+FeeA: 0.880609
+FeeB: 0.137048
+------------------------------------------
+Iteration: 76
+516.6929360163
+204.9885575774
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 945.8668582793383
+Reserve Ratio: 2.1112
+Slippage (B for A): -8.7437%
+Swap Exchange Price (A / B): 2.300200
+Trade Lot Fraction:  0.092806
+TokenA swapped: 293.5364
+TokenB swapped: 64.7069
+FeeA: 0.880609
+FeeB: 0.194121
+------------------------------------------
+Iteration: 77
+472.9334291505
+224.0127779168
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 966.0063962677704
+Reserve Ratio: 2.1103
+TokenA swapped: 293.5364
+TokenB swapped: 64.7069
+FeeA: 0.880609
+FeeB: 0.194121
+------------------------------------------
+Iteration: 78
+483.0031981385
+228.8807810031
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 1010.9716446221707
+Reserve Ratio: 2.3110
+Slippage (A for B): -4.7217%
+Swap Exchange (A / B): 2.214861
+Trade Lot Fraction:  0.046548
+TokenA swapped: 316.0191
+TokenB swapped: 64.7069
+FeeA: 0.948057
+FeeB: 0.194121
+------------------------------------------
+Iteration: 79
+505.4858223163
+218.7299766033
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 1010.832996951632
+Reserve Ratio: 2.3110
+TokenA swapped: 316.0191
+TokenB swapped: 64.7069
+FeeA: 0.948057
+FeeB: 0.194121
+------------------------------------------
+Iteration: 80
+505.416498481
+218.6999793211
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 1107.5692299985474
+Reserve Ratio: 2.7738
+Slippage (A for B): -8.9841%
+Swap Exchange (A / B): 2.539120
+Trade Lot Fraction:  0.095700
+TokenA swapped: 364.3872
+TokenB swapped: 64.7069
+FeeA: 1.093162
+FeeB: 0.194121
+------------------------------------------
+Iteration: 81
+553.784615001
+199.6508118366
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 1113.113268368928
+Reserve Ratio: 2.7298
+TokenA swapped: 364.3872
+TokenB swapped: 64.7069
+FeeA: 1.093162
+FeeB: 0.194121
+------------------------------------------
+Iteration: 82
+556.5566341926
+203.8827503865
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 1059.757454793194
+Reserve Ratio: 2.4740
+Slippage (B for A): -5.0790%
+Swap Exchange Price (A / B): 2.591142
+Trade Lot Fraction:  0.050499
+TokenA swapped: 364.3872
+TokenB swapped: 75.0027
+FeeA: 1.093162
+FeeB: 0.225008
+------------------------------------------
+Iteration: 83
+529.8787274058
+214.1785620938
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 1170.263004307365
+Reserve Ratio: 2.4249
+TokenA swapped: 364.3872
+TokenB swapped: 75.0027
+FeeA: 1.093162
+FeeB: 0.225008
+------------------------------------------
+Iteration: 84
+585.1315021645
+241.3028535246
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 1076.2482355271468
+Reserve Ratio: 2.4249
+TokenA swapped: 364.3872
+TokenB swapped: 75.0027
+FeeA: 1.093162
+FeeB: 0.225008
+------------------------------------------
+Iteration: 85
+538.1241177735
+221.9174402486
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 986.1738710306387
+Reserve Ratio: 2.0355
+Slippage (B for A): -8.6442%
+Swap Exchange Price (A / B): 2.215273
+Trade Lot Fraction:  0.091612
+TokenA swapped: 364.3872
+TokenB swapped: 95.3330
+FeeA: 1.093162
+FeeB: 0.285999
+------------------------------------------
+Iteration: 86
+493.0869355251
+242.2477497913
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 994.118409552657
+Reserve Ratio: 2.0683
+Slippage (A for B): -1.0944%
+Swap Exchange (A / B): 2.057988
+Trade Lot Fraction:  0.008056
+TokenA swapped: 368.3594
+TokenB swapped: 95.3330
+FeeA: 1.105078
+FeeB: 0.285999
+------------------------------------------
+Iteration: 87
+497.0592047774
+240.3175783745
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 1286.1939959271983
+Reserve Ratio: 1.9676
+TokenA swapped: 368.3594
+TokenB swapped: 95.3330
+FeeA: 1.105078
+FeeB: 0.285999
+------------------------------------------
+Iteration: 88
+643.0969979721
+326.8408621367
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 1256.6676823778284
+Reserve Ratio: 1.9676
+TokenA swapped: 368.3594
+TokenB swapped: 95.3330
+FeeA: 1.105078
+FeeB: 0.285999
+------------------------------------------
+Iteration: 89
+628.3338411972
+319.3377904331
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 1218.867380243474
+Reserve Ratio: 1.8509
+Slippage (B for A): -3.2990%
+Swap Exchange Price (A / B): 1.902704
+Trade Lot Fraction:  0.031106
+TokenA swapped: 368.3594
+TokenB swapped: 105.2663
+FeeA: 1.105078
+FeeB: 0.315799
+------------------------------------------
+Iteration: 90
+609.4336901374
+329.2711000892
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 1276.2041497381597
+Reserve Ratio: 1.8601
+TokenA swapped: 368.3594
+TokenB swapped: 105.2663
+FeeA: 1.105078
+FeeB: 0.315799
+------------------------------------------
+Iteration: 91
+638.1020748703
+343.0501143861
+. . . . . . . . . . . . . . . . . . . . . .
+Action: removeLiquidity
+TVL: 1273.2449944389468
+Reserve Ratio: 1.8601
+TokenA swapped: 368.3594
+TokenB swapped: 105.2663
+FeeA: 1.105078
+FeeB: 0.315799
+------------------------------------------
+Iteration: 92
+636.6224972207
+342.2546785116
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 1309.1015254124172
+Reserve Ratio: 1.9662
+Slippage (A for B): -3.0228%
+Swap Exchange (A / B): 1.918064
+Trade Lot Fraction:  0.028162
+TokenA swapped: 386.2877
+TokenB swapped: 105.2663
+FeeA: 1.158863
+FeeB: 0.315799
+------------------------------------------
+Iteration: 93
+654.5507627123
+332.9076152703
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 1469.5365819298286
+Reserve Ratio: 1.9780
+TokenA swapped: 386.2877
+TokenB swapped: 105.2663
+FeeA: 1.158863
+FeeB: 0.315799
+------------------------------------------
+Iteration: 94
+734.7682909775
+371.4629255582
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapBforA
+TVL: 1367.045329107979
+Reserve Ratio: 1.7114
+Slippage (B for A): -7.2535%
+Swap Exchange Price (A / B): 1.834563
+Trade Lot Fraction:  0.075198
+TokenA swapped: 386.2877
+TokenB swapped: 133.1997
+FeeA: 1.158863
+FeeB: 0.399599
+------------------------------------------
+Iteration: 95
+683.5226645631
+399.3963514546
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 1421.3599038090274
+Reserve Ratio: 1.8499
+Slippage (A for B): -4.0989%
+Swap Exchange (A / B): 1.784535
+Trade Lot Fraction:  0.039731
+TokenA swapped: 413.4450
+TokenB swapped: 133.1997
+FeeA: 1.240335
+FeeB: 0.399599
+------------------------------------------
+Iteration: 96
+710.6799519169
+384.1782188192
+. . . . . . . . . . . . . . . . . . . . . .
+Action: addLiquidity
+TVL: 1423.377063897607
+Reserve Ratio: 1.8467
+TokenA swapped: 413.4450
+TokenB swapped: 133.1997
+FeeA: 1.240335
+FeeB: 0.399599
+------------------------------------------
+Iteration: 97
+711.6885319602
+385.3766026297
+. . . . . . . . . . . . . . . . . . . . . .
+Action: swapAforB
+TVL: 1456.61943258605
+Reserve Ratio: 1.9339
+Slippage (A for B): -2.5686%
+Swap Exchange (A / B): 1.895422
+Trade Lot Fraction:  0.023355
+TokenA swapped: 430.0662
+TokenB swapped: 133.1997
+FeeA: 1.290199
+FeeB: 0.399599
+LP 1: TokenA = 12.8877859269, TokenB = 6.2303099251, LP Tokens = 356.0028893394
+LP 2: TokenA = 250.2322450291, TokenB = 120.270245915, LP Tokens = 98.7049065441
+LP 3: TokenA = 37.1845437813, TokenB = 20.7871126896, LP Tokens = 131.8751285895
+LP 4: TokenA = 17.9212970132, TokenB = 25.8963970129, LP Tokens = 0.8806163605
+LP 5: TokenA = 1.2510564453, TokenB = 1.4864916277, LP Tokens = 31.7637575949
