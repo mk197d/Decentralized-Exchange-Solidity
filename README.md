@@ -1,3 +1,9 @@
+This project has been done as part of the course CS765 - Introduction to Blockchain, Cryptocurrency and Smart Contracts. Here are the team members:
+
+Saksham Rathi (22B1003)
+Kavya Gupta (22B1053)
+Mayank Kumar (22B0933)
+
 # Running the Ballot Contract on Remix IDE
 
 ## Prerequisites
@@ -52,4 +58,5 @@
 
 
 For additional help, post on Piazza.
+
 
